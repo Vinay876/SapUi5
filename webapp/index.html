@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <!-- cdn bootstrap  , ui-resourceroots concept is called as namespace we use to reffer a file webapp  -->
+    <script   src="https://ui5.sap.com/1.126.0/resources/sap-ui-core.js"
+              data-sap-ui-libs="sap.m"
+              data-sap-ui-theme="sap_horizon_dark"
+               data-sap-ui-resourceroots='{
+                "vinay":"./"
+              }'></script>
+
+<script>
+    var oView = new sap.ui.view(
+        {
+            viewName: "vinay.view.Main",
+            type:'JS'
+        }
+    )
+    oView.placeAt('content')
+</script>
+
+    </head>
+    <body class="sapUiBody">
+        qewdqwe
+        <div id="input"></div>
+        <div id="content"></div>
+    </body>
+</html>
